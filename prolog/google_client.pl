@@ -41,6 +41,7 @@
 :- use_module(library(uri)).
 :- use_module(library(lists)).
 :- use_module(library(debug)).
+:- use_module(library(settings)).
 
 :- use_module(jwt).
 
