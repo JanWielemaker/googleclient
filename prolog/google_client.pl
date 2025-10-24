@@ -1,9 +1,10 @@
 /*  Part of SWI-Prolog
 
     Author:        Jan Wielemaker
-    E-mail:        J.Wielemaker@cs.vu.nl
-    WWW:           http://www.swi-prolog.org
-    Copyright (C): 2015, VU University Amsterdam
+    E-mail:        jan@swi-prolog.org
+    WWW:           https://www.swi-prolog.org
+    Copyright (C): 2015-2025, VU University Amsterdam
+			      SWI-Prolog Solutions b.v.
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -37,7 +38,7 @@
 :- use_module(library(http/http_parameters)).
 :- use_module(library(http/http_path), []).
 :- use_module(library(http/http_ssl_plugin)).
-:- use_module(library(http/json)).
+:- use_module(library(json)).
 :- use_module(library(uri)).
 :- use_module(library(lists)).
 :- use_module(library(debug)).
